@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Cedar &amp; Stone">
+  <rect width="32" height="32" rx="7" fill="#1f3f28"/>
+  <!-- Open C -->
+  <path
+    fill="#faf7f0"
+    fill-rule="evenodd"
+    d="M23.1 9.05A8.35 8.35 0 0 0 16.5 6.4c-4.7 0-8.5 3.8-8.5 8.5s3.8 8.5 8.5 8.5a8.35 8.35 0 0 0 6.6-2.65l-2.05-2.05a5.45 5.45 0 1 1 0-7.6l2.05-2.05Z"
+  />
+  <!-- Cedar -->
+  <path
+    fill="#faf7f0"
+    d="M16.5 9.6 12.85 14h1.7L11.9 17.35h1.85L10.9 21h11.2l-2.85-3.65h1.85L17.45 14h1.7L16.5 9.6Z"
+  />
+  <!-- Stone -->
+  <ellipse cx="16.5" cy="22.85" rx="4.4" ry="1.55" fill="#faf7f0"/>
+</svg>
