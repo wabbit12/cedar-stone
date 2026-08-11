@@ -34,11 +34,11 @@ export function Header() {
         <button
           className="nav-toggle"
           type="button"
+          aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           aria-controls="primary-nav"
           onClick={() => setOpen((value) => !value)}
         >
-          <span className="nav-toggle__label">Menu</span>
           <span className="nav-toggle__bars" aria-hidden="true" />
         </button>
 
