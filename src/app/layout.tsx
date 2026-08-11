@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, Manrope } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -17,6 +17,10 @@ const manrope = Manrope({
   variable: "--font-manrope",
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  themeColor: "#faf7f0",
+};
 
 export const metadata: Metadata = {
   title: {
